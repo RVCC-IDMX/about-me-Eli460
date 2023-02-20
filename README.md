@@ -1,4 +1,4 @@
-# AboutME
+# README
 
 
-Elisha White! 
+Elisha White! (Eli460)
