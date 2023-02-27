@@ -25,3 +25,6 @@ header{
 #bio{
     text-align: center;
 }
+#hobbies ul li:nth-child(even){
+    color: indianred;
+}
