@@ -34,6 +34,7 @@ header{
 /* Gallery Section*/
 #gallery{
     border:2px solid bisque;
+    margin-bottom: 2rem;
 }
 #gallery img{
     max-width: 100%;
@@ -41,3 +42,13 @@ header{
 #gallery figure{
     text-align: center;
 }
+
+#lit{
+    border:2px solid bisque;
+}
+
+#lit div{
+   padding: 2rem;
+   max-width: 40rem;
+   margin: 0 auto;
+    }
