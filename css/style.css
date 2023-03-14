@@ -1,12 +1,13 @@
 body{
     font-family: Playfair Display;
-    background-color:   #FFCF81;
-    color: #413D81; 
+    background-color:   #EEA47FFF;
+    color: #00539CFF; 
 }
 
 h1,h2,h3,h4,h5,h6{
     font-family: "Stint Ultra Condensed";
     font-size: 50pt;
+    text-align: center;
 }
 header{
     text-align: center;
@@ -32,23 +33,26 @@ header{
     color: indianred;
 }
 /* Gallery Section*/
-#gallery{
-    border:2px solid bisque;
+#Gallery{
+    border:2px solid black;
     margin-bottom: 2rem;
 }
-#gallery img{
+#Gallery img{
     max-width: 100%;
 }
-#gallery figure{
+#Gallery figure{
     text-align: center;
 }
 
 #lit{
-    border:2px solid bisque;
+    border:2px solid black;
 }
 
 #lit div{
    padding: 2rem;
    max-width: 40rem;
    margin: 0 auto;
+    }
+    #lit{
+        text-align: center;
     }
