@@ -80,6 +80,13 @@ section#hobbies{
     #lit{
         text-align: center;
     }
+    #video{
+        border:2px solid black;
+        margin-bottom: 2rem;
+    }
+    #video figure{
+        text-align: center;
+    }
 
        /* tablet size */
     @media screen and (min-width: 60em){
@@ -102,8 +109,9 @@ section#hobbies{
         #lit div{
             max-width: 100%;
             columns: 40rem;
-
         }
+
+
     }
 
     /*large screen size */
@@ -124,3 +132,7 @@ section#hobbies{
         display: block;
     }
 }
+
+
+
+
