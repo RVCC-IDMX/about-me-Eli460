@@ -151,6 +151,7 @@ fieldset{
     border: 2px solid blue; 
     margin-top: 1em;
     margin-bottom: 1em;
+    border-style: dotted;
 }
 legend{
     background-color: blue;
@@ -178,4 +179,23 @@ legend{
     max-width: 400px;
     width: 50%;
     justify-self: center;
+
 }
+    /*large screen size */
+    @media  screen and (min-width: 100em) {
+        fieldset{
+            border: 2px solid blue; 
+            margin-top: 1em;
+            margin-bottom: 1em;
+            border-style: double;
+        }
+
+    }
+    @media screen and (min-width: 60em){
+        fieldset{
+            border: 2px solid blue; 
+            margin-top: 1em;
+            margin-bottom: 1em;
+            border-style: ridge;
+        }
+    }

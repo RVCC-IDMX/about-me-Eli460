@@ -39,11 +39,20 @@ margin-bottom: 1rem;
     height: 6vw;
     width: 6vw;
 }
+
 .logo h1{
     font-size: 1.2em;
 }
 
 /* navigation list */
+.navbar-links li{
+    list-style: none;
+    display: block;
+    padding: 0.5em 0;
+
+}
+
+
 
 
 /*  
@@ -51,8 +60,23 @@ margin-bottom: 1rem;
  and then on hover
 */
 
+.navbar-links a{
+    background-color: rgb(135, 129, 129);
+    color: rgb(247, 242, 242);
+    font-size: 1.5rem;
+    padding: 1rem 1.25rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    display: inline-block;
+}
 
-
+.navbar-links a:hover,
+.navbar-links a:focus{
+    color: aliceblue;
+    background-color: black;
+    filter: invert(1);
+    border-radius: 10px;
+}
 
 
 /* 
