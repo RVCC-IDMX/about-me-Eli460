@@ -14,7 +14,7 @@
     <header>
         <nav class = "navbar">
             <div class = "logo">
-            <img src = "img/logo-96X96.svg" alt = "Blue origami logo"/> 
+            <img src = "img/favicon-96x96.png" alt = "Blue origami logo"/> 
             <h1> Web Dev I - Online!</h1>
         </div>
             <div class = "navbar-links">
@@ -40,12 +40,12 @@
             <section id = "bio">
                 <h2>Biography</h2>
                 <!-- short bio-->
-                <p>I want to be...</p>
-                <p>a proffesional basketball player.</p>
-                <p>My favorite way to work is...</p>
-                <p>at night with music from my record player/speaker setup.</p>
-                <p>In my free time, I like to...</p>
-                <p> play basketball, watch anime, and research cars.</p>
+                <p>Welcome to my website, I want to thank you for taking the time to check it out.
+                    Some information about me is I attend Raritan Valley Community College.
+                    I'm majoring in Information Systems and Technology better known as IT. Some of 
+                    my passions include basketball (I play for the school team), fixing electronics, and 
+                    learning new things. 
+                </p>
                 <p></p>
             </section>
 </section>
@@ -54,10 +54,21 @@
 <h2>Hobbies</h2>
 <ul>
 <li> Playing Basketball</li>
+<p> - Ive been playing basketball for a majority of my life since. I play foward here at Raritan Valley, and 
+    we actually one the schools first regional Championship this year.
+</p>
 <li> Lifting Weight </li>
+<p> - Lifting weights is something I started taking serioulsy again last year in September. My goal is to 
+    reach my targert weight of 210-215. 
+</p>
 <li> Playing videogames</li>
+<p> I play on playstation, xbox, and pc. Some of my favorite games include 2k, Call of Duty, and Naruto Storm 4.</p>
 <li> Hanging out with friends</li>
+<p> My friends and I usually like to play pool, basketball, football and other various sports when we hang out together. 
+    We also enjoy visiting new places and trying new things. 
+</p>
 <li> Meditating</li>
+<p></p>
 
 
 
@@ -103,16 +114,29 @@
 
 <article id="lit">
 
-    <h2>An Excerpt from Pride and Prejudice</h2>
+    <h2>Embedded static Google map using iFrame</h2>
 
     <div>
-        <p>Elizabeth listened in silence, but was not convinced; their behaviour at the assembly had not been calculated to please in general; and with more quickness of observation and less pliancy of temper than her sister, and with a judgement too unassailed by any attention to herself, she was very little disposed to approve them. They were in fact very fine ladies; not deficient in good humour when they were pleased, nor in the power of making themselves agreeable when they chose it, but proud and conceited. They were rather handsome, had been educated in one of the first private seminaries in town, had a fortune of twenty thousand pounds, were in the habit of spending more than they ought, and of associating with people of rank, and were therefore in every respect entitled to think well of themselves, and meanly of others. They were of a respectable family in the north of England; a circumstance more deeply impressed on their memories than that their brother’s fortune and their own had been acquired by trade.</p>
+<p>Embedding a static Google map into a website using iFrame is a straightforward process that allows you to display a map of a specific location on your website. Static maps are pre-rendered images of a map that do not require any user interaction and can be displayed without the use of any JavaScript or API. By embedding a static Google map, you can provide visitors to your website with a visual representation of your business or organization's location, making it easier for them to find you.
 
-        <p>Mr. Bingley inherited property to the amount of nearly a hundred thousand pounds from his father, who had intended to purchase an estate, but did not live to do it. Mr. Bingley intended it likewise, and sometimes made choice of his county; but as he was now provided with a good house and the liberty of a manor, it was doubtful to many of those who best knew the easiness of his temper, whether he might not spend the remainder of his days at Netherfield, and leave the next generation to purchase.</p>
-        
-        <p>His sisters were anxious for his having an estate of his own; but, though he was now only established as a tenant, Miss Bingley was by no means unwilling to preside at his table--nor was Mrs. Hurst, who had married a man of more fashion than fortune, less disposed to consider his house as her home when it suited her. Mr. Bingley had not been of age two years, when he was tempted by an accidental recommendation to look at Netherfield House. He did look at it, and into it for half-an-hour--was pleased with the situation and the principal rooms, satisfied with what the owner said in its praise, and took it immediately.</p>
+    To embed a static Google map using iFrame, you will first need to generate a map using the Google Maps API. Once you have generated your map, you can obtain the URL for the static image by clicking on the "Share" button in the top left-hand corner of the Google Maps window. This will generate a URL that you can use to embed the map on your website.
+    
+    Once you have obtained the URL for your map, you can create an iFrame element on your website and set the source attribute to the URL for your map. For example, you might create an iFrame element like this:
+    
+    arduino
 
+
+    There are several parameters that you can use to customize the appearance of your static Google map. For example, you can adjust the zoom level to show more or less detail, change the size of the map to fit your website's layout, and add markers or labels to highlight specific locations on the map.
+    
+    One thing to keep in mind when embedding a static Google map using iFrame is that the map image will not be interactive. Users will not be able to zoom in or out, click on markers, or interact with the map in any way. If you need a more interactive map that allows users to explore your location in more detail, you may want to consider using the Google Maps JavaScript API instead.
+    
+    In summary, embedding a static Google map using iFrame is a simple and effective way to display a map of your business or organization's location on your website. By customizing the parameters of your map URL, you can create a map that fits your website's design and provides visitors with the information they need to find you. Just remember that static maps are not interactive, so if you need more advanced functionality, you may want to consider using the Google Maps JavaScript API.</p>
+
+    <iframe src="https://www.google.com/maps/embed/v1/static?center=37.7749,-122.4194&zoom=13&size=600x300&key=AIzaSyCeMC2mzil2CorRoAmJusytkijktEmbX_4" width="600" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+     <p>In this example, the URL for the static map is set as the source attribute for the iFrame element. The URL includes a number of parameters that specify the location of the map, the zoom level, and the size of the image. You will also need to replace "YOUR_API_KEY" with your actual Google Maps API key. </p>
+    
     </div>
+
 
 </article>
 
