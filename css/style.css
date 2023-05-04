@@ -211,7 +211,7 @@ legend{
         right: 0;
         
     }
-     svg{
+     nav svg{
        width: 1.5rem;
        fill:black; 
     }
@@ -221,7 +221,7 @@ legend{
     .menu{
         margin-top: .2rem;
     }
-    .checkbox{
+    .nav__checkbox{
         display: none;
     }
     .menu{
@@ -231,12 +231,12 @@ legend{
         align-items: center;
         margin: 1rem;
     }
-    li{
+    .nav li{
         list-style: none;
         display: none;
 
     }
-    :first-child{
+    nav :first-child{
         margin-right: auto;
         display: block;
        } 
