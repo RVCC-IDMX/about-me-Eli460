@@ -12,6 +12,7 @@ h1,h2,h3,h4,h5,h6{
 h2{
     margin: .1em;
 }
+
 header{
     text-align: center;
 }
@@ -199,3 +200,73 @@ legend{
             border-style: ridge;
         }
     }
+  
+    .nav{
+        border-bottom: 1px solid black;
+    }
+    .nav__toggle{ 
+        position: absolute;
+        cursor:pointer;
+        margin: 0rem 1rem;
+        right: 0;
+        
+    }
+     svg{
+       width: 1.5rem;
+       fill:black; 
+    }
+    .close{
+        display:none;
+    }
+    .menu{
+        margin-top: .2rem;
+    }
+    .checkbox{
+        display: none;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+        margin: 1rem;
+    }
+    li{
+        list-style: none;
+        display: none;
+
+    }
+    :first-child{
+        margin-right: auto;
+        display: block;
+       } 
+       a{
+        text-decoration: none;
+        color: inherit;
+        font-size: 1.2rem;
+       }
+       #nav__checkbox:checked ~ ul.nav__menu li{
+        display:block;
+       }
+       #nav__checkbox:checked ~ label.nav__toggle .close{
+        display:block;
+       }
+       #nav__checkbox:checked ~ label.nav__toggle .menu{
+        display:none;
+       }
+
+      
+       .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .navbar {
+        background-color: rgb(135, 129, 129);
+        color: rgb(247, 242, 242);
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        padding: 1rem;
+    }
+    
